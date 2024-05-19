@@ -323,3 +323,15 @@ hr {
   border: 1px solid #22282A;
 }
 
+.hero .btn-secondary{
+  position: relative;
+  padding-left: 2.5rem;
+}
+.btn-secondary img {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 1rem;
+  top: 0.5rem;
+}
+

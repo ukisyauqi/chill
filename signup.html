@@ -6,15 +6,15 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles/login-signup.css" />
   </head>
-  <body class="bg-login flex-center">
+  <body class="bg-signup flex-center">
     <form class="login-form">
       <div class="brand flex-center">
         <img src="assets/logo.svg" alt="" />
         <h1>CHILL</h1>
       </div>
       <div class="title">
-        <h1>Masuk</h1>
-        <p>Selamat datang kembali!</p>
+        <h1>Daftar</h1>
+        <p>Selamat datang!</p>
       </div>
       <div>
         <label for="username">Username</label><br />
@@ -35,13 +35,23 @@
           required
           placeholder="Masukan kata sandi"
         />
+      </div>
+      <div>
+        <label for="confirm-password">Konfirmasi Kata Sandi</label><br />
+        <input
+          type="password"
+          id="confirm-password"
+          name="confirm-password"
+          required
+          placeholder="Masukan kata sandi"
+        />
         <div class="daftar-lupa-sandi">
-          <p>Belum punya akun? <a href="">Daftar</a></p>
-          <a href="">Lupa kata sandi?</a>
+          <p>Sudah punya akun? <a href="">Masuk</a></p>
         </div>
       </div>
       <div class="flex-col btn-group-login">
-        <button class="btn-login">Masuk</button>
+
+        <button class="btn-login">Daftar</button>
         <p class="text-center text-sm">Atau</p>
         <button class="btn-google">
           <img src="assets/icon-google.png" alt="" />&nbsp;&nbsp;Masuk dengan
